@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Eventos | Casa Alianza Honduras</title>
+
+<meta name="description" content="Conoce eventos, actividades y jornadas de participación comunitaria de Casa Alianza Honduras.">
+
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/responsive.css">
+<link rel="stylesheet" href="css/animations.css">
+
+</head>
+
+
+<body>
+
+
+<header class="header">
+
+<div class="container nav-container">
+
+
+<a href="index.html" class="logo">
+
+<img src="img/logo.png" alt="Logo Casa Alianza Honduras">
+
+</a>
+
+
+<button class="menu-btn" id="menuBtn">
+☰
+</button>
+
+
+
+<nav class="nav" id="navMenu">
+
+<ul>
+
+<li><a href="index.html">Inicio</a></li>
+
+<li><a href="acerca.html">Nosotros</a></li>
+
+<li><a href="programas.html">Programas</a></li>
+
+<li><a href="ayudar.html">Cómo ayudar</a></li>
+
+<li><a href="galeria.html">Galería</a></li>
+
+<li><a href="blog.html">Blog</a></li>
+
+<li><a href="eventos.html">Eventos</a></li>
+
+<li><a href="contacto.html">Contacto</a></li>
+
+</ul>
+
+</nav>
+
+
+</div>
+
+</header>
+
+
+
+
+
+<main>
+
+
+
+<section class="page-banner">
+
+<div class="container">
+
+<h1>
+Eventos
+</h1>
+
+
+<p>
+Actividades de participación social, educación y promoción de derechos.
+</p>
+
+
+</div>
+
+</section>
+
+
+
+
+
+
+
+<section class="container events-section">
+
+
+<h2>
+Calendario de actividades
+</h2>
+
+
+
+<div class="event-controls">
+
+
+<input 
+type="search"
+id="eventSearch"
+placeholder="Buscar evento...">
+
+
+
+
+
+<select id="eventFilter">
+
+
+<option value="todos">
+Todos
+</option>
+
+
+<option value="voluntariado">
+Voluntariado
+</option>
+
+
+<option value="educacion">
+Educación
+</option>
+
+
+<option value="capacitacion">
+Capacitación
+</option>
+
+
+<option value="comunidad">
+Comunidad
+</option>
+
+
+</select>
+
+
+
+</div>
+
+
+
+
+
+
+
+
+<div class="events-container" id="eventsContainer">
+
+
+
+
+
+
+
+<article class="event-card"
+data-category="voluntariado">
+
+
+<div class="event-date">
+
+<span>
+20
+</span>
+
+Febrero
+
+</div>
+
+
+<div>
+
+<h3>
+Jornada de voluntariado
+</h3>
+
+
+<p>
+Lugar: Tegucigalpa
+</p>
+
+
+<p>
+Hora: 9:00 a.m.
+</p>
+
+
+<p>
+Actividad de apoyo comunitario.
+</p>
+
+
+</div>
+
+
+</article>
+
+
+
+
+
+
+
+
+
+<article class="event-card"
+data-category="capacitacion">
+
+
+<div class="event-date">
+
+<span>
+12
+</span>
+
+Junio
+
+</div>
+
+
+<div>
+
+<h3>
+Capacitación sobre derechos de la niñez
+</h3>
+
+
+<p>
+Lugar: Casa Alianza
+</p>
+
+
+<p>
+Hora: 8:30 a.m.
+</p>
+
+
+<p>
+Formación sobre protección infantil.
+</p>
+
+
+</div>
+
+
+</article>
+
+
+
+
+
+
+
+
+
+
+<article class="event-card"
+data-category="educacion">
+
+
+<div class="event-date">
+
+<span>
+30
+</span>
+
+Abril
+
+</div>
+
+
+<div>
+
+<h3>
+Feria educativa comunitaria
+</h3>
+
+
+<p>
+Lugar: Distrito Central
+</p>
+
+
+<p>
+Hora: 9:00 a.m.
+</p>
+
+
+<p>
+Promoción de educación y prevención.
+</p>
+
+
+</div>
+
+
+</article>
+
+
+
+
+
+
+
+
+
+<article class="event-card"
+data-category="comunidad">
+
+
+<div class="event-date">
+
+<span>
+20
+</span>
+
+Noviembre
+
+</div>
+
+
+<div>
+
+<h3>
+Día Mundial de la Infancia
+</h3>
+
+
+<p>
+Lugar: Tegucigalpa
+</p>
+
+
+<p>
+Hora: 9:00 a.m.
+</p>
+
+
+<p>
+Actividad de sensibilización social.
+</p>
+
+
+</div>
+
+
+</article>
+
+
+
+
+
+
+
+
+
+<article class="event-card"
+data-category="educacion">
+
+
+<div class="event-date">
+
+<span>
+15
+</span>
+
+Marzo
+
+</div>
+
+
+<div>
+
+<h3>
+Taller de prevención de violencia
+</h3>
+
+
+<p>
+Lugar: Casa Alianza
+</p>
+
+
+<p>
+Hora: 10:00 a.m.
+</p>
+
+
+<p>
+Espacio educativo para jóvenes.
+</p>
+
+
+</div>
+
+
+</article>
+
+
+
+
+
+</div>
+
+
+
+<p id="noEvents" class="hidden">
+
+No existen eventos con esos criterios.
+
+</p>
+
+
+
+</section>
+
+
+
+
+
+
+
+<section class="call-action">
+
+
+<h2>
+Participa y sé parte del cambio
+</h2>
+
+
+<p>
+La participación ciudadana fortalece la defensa de los derechos de la niñez.
+</p>
+
+
+<a href="ayudar.html" class="btn">
+Ser voluntario
+</a>
+
+
+</section>
+
+
+
+
+</main>
+
+
+
+
+
+
+
+<footer class="footer">
+
+
+<div class="container footer-grid">
+
+
+<div>
+
+<h3>
+Casa Alianza Honduras
+</h3>
+
+
+<p>
+Protección y defensa de la niñez.
+</p>
+
+
+</div>
+
+
+
+<div>
+
+<h3>
+Ubicación
+</h3>
+
+
+<p>
+Tegucigalpa, Honduras
+</p>
+
+
+</div>
+
+
+
+<div>
+
+<h3>
+Contacto
+</h3>
+
+
+<p>
+contacto@casa-alianza.org.hn
+</p>
+
+
+</div>
+
+
+
+</div>
+
+
+
+<p class="copyright">
+
+© 2026 Casa Alianza Honduras
+
+</p>
+
+
+
+</footer>
+
+
+
+
+
+<script src="js/menu.js"></script>
+
+<script src="js/eventos.js"></script>
+
+
+</body>
+
+</html>

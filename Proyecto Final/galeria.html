@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Galería | Casa Alianza Honduras</title>
+
+<meta name="description" content="Galería de imágenes sobre actividades, programas y acciones sociales de Casa Alianza Honduras.">
+
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/responsive.css">
+<link rel="stylesheet" href="css/animations.css">
+
+</head>
+
+
+<body>
+
+
+<header class="header">
+
+<div class="container nav-container">
+
+
+<a href="index.html" class="logo">
+
+<img src="img/logo.png" alt="Logo Casa Alianza Honduras">
+
+</a>
+
+
+<button class="menu-btn" id="menuBtn">
+☰
+</button>
+
+
+
+<nav class="nav" id="navMenu">
+
+<ul>
+
+<li><a href="index.html">Inicio</a></li>
+
+<li><a href="acerca.html">Nosotros</a></li>
+
+<li><a href="programas.html">Programas</a></li>
+
+<li><a href="ayudar.html">Cómo ayudar</a></li>
+
+<li><a href="galeria.html">Galería</a></li>
+
+<li><a href="blog.html">Blog</a></li>
+
+<li><a href="eventos.html">Eventos</a></li>
+
+<li><a href="contacto.html">Contacto</a></li>
+
+</ul>
+
+</nav>
+
+
+</div>
+
+</header>
+
+
+
+
+
+<main>
+
+
+
+<section class="page-banner">
+
+<div class="container">
+
+<h1>
+Galería de Fotos
+</h1>
+
+
+<p>
+Conoce parte del trabajo realizado por Casa Alianza Honduras.
+</p>
+
+
+</div>
+
+</section>
+
+
+
+
+
+
+
+<section class="container gallery-section">
+
+
+<h2>
+Momentos que inspiran
+</h2>
+
+
+<p>
+Imágenes representativas de actividades educativas,
+comunitarias y de protección integral.
+</p>
+
+
+
+
+
+<div class="gallery-buttons">
+
+
+<button class="gallery-filter active" data-filter="all">
+Todas
+</button>
+
+
+<button class="gallery-filter" data-filter="educacion">
+Educación
+</button>
+
+
+<button class="gallery-filter" data-filter="voluntariado">
+Voluntariado
+</button>
+
+
+<button class="gallery-filter" data-filter="comunidad">
+Comunidad
+</button>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+<div class="gallery-grid" id="galleryGrid">
+
+
+
+
+
+<figure class="gallery-item"
+data-category="educacion">
+
+
+<img 
+src="img/galeria/imagen1.jpg"
+alt="Actividad educativa con jóvenes">
+
+<figcaption>
+Educación y formación
+</figcaption>
+
+
+</figure>
+
+
+
+
+
+
+
+<figure class="gallery-item"
+data-category="voluntariado">
+
+
+<img 
+src="img/galeria/imagen2.jpg"
+alt="Voluntarios apoyando actividades sociales">
+
+
+<figcaption>
+Trabajo voluntario
+</figcaption>
+
+
+</figure>
+
+
+
+
+
+
+
+<figure class="gallery-item"
+data-category="comunidad">
+
+
+<img 
+src="img/galeria/imagen3.jpg"
+alt="Actividad comunitaria">
+
+
+<figcaption>
+Trabajo comunitario
+</figcaption>
+
+
+</figure>
+
+
+
+
+
+
+
+<figure class="gallery-item"
+data-category="educacion">
+
+
+<img 
+src="img/galeria/imagen4.jpg"
+alt="Taller educativo">
+
+
+<figcaption>
+Talleres formativos
+</figcaption>
+
+
+</figure>
+
+
+
+
+
+
+
+<figure class="gallery-item"
+data-category="voluntariado">
+
+
+<img 
+src="img/galeria/imagen5.jpg"
+alt="Equipo de voluntariado">
+
+
+<figcaption>
+Apoyo social
+</figcaption>
+
+
+</figure>
+
+
+
+
+
+
+
+<figure class="gallery-item"
+data-category="comunidad">
+
+
+<img 
+src="img/galeria/imagen6.jpg"
+alt="Evento comunitario">
+
+
+<figcaption>
+Participación ciudadana
+</figcaption>
+
+
+</figure>
+
+
+
+
+</div>
+
+
+</section>
+
+
+
+
+
+
+
+
+<!-- Lightbox -->
+
+
+<div class="lightbox" id="lightbox">
+
+
+<span class="close-lightbox" id="closeLightbox">
+&times;
+</span>
+
+
+<img id="lightboxImage"
+src=""
+alt="Imagen ampliada">
+
+
+</div>
+
+
+
+
+
+
+</main>
+
+
+
+
+
+
+<footer class="footer">
+
+
+<div class="container footer-grid">
+
+
+<div>
+
+<h3>
+Casa Alianza Honduras
+</h3>
+
+<p>
+Abriendo puertas a la niñez desamparada.
+</p>
+
+</div>
+
+
+
+
+<div>
+
+<h3>
+Contacto
+</h3>
+
+<p>
+Tegucigalpa, Honduras
+</p>
+
+<p>
+(+504) 2237-1494
+</p>
+
+</div>
+
+
+
+
+
+<div>
+
+<h3>
+Enlaces
+</h3>
+
+<a href="donaciones.html">
+Donaciones
+</a>
+
+
+<br>
+
+
+<a href="contacto.html">
+Contacto
+</a>
+
+
+</div>
+
+
+
+</div>
+
+
+<p class="copyright">
+© 2026 Casa Alianza Honduras
+</p>
+
+
+
+</footer>
+
+
+
+
+
+<script src="js/menu.js"></script>
+
+<script src="js/galeria.js"></script>
+
+
+
+</body>
+
+</html>
