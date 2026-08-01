@@ -1,0 +1,41 @@
+
+@keyframes aparecer{
+
+
+from{
+
+opacity:0;
+
+transform:translateY(30px);
+
+}
+
+
+to{
+
+opacity:1;
+
+transform:translateY(0);
+
+}
+
+
+}
+
+
+
+.card,
+.event-card,
+.gallery-item{
+
+animation:aparecer .6s ease;
+
+}
+
+
+
+.btn{
+
+animation:aparecer .8s ease;
+
+}
